@@ -1,0 +1,207 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.1/css/all.min.css">
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <title>Deydo Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+</head>
+<body>
+    <nav>
+        <div class="nav-container">
+            <div class="logo" data-aos="zoom-in" data-aos-duration="1000">
+                <span>Deydoks</span>
+            </div>
+            <div class="links">
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="100"><a href="#">Home</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="200"><a href="#">About</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="300"><a href="#">Skills</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="400"><a href="#">Sertifikat</a></div>
+                <div class="link" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="500"><a href="#">Blogs</a></div>
+                <div class="link contact-btn" data-aos="fade-up" data-aos-duration="1000" data-aos-delay="600"><a href="#">Contact Us</a></div>
+            </div>
+            <i class="fa-solid fa-bars hamburg" onclick="hamburg()"></i>
+        </div>
+        <div class="dropdown">
+            <div class="links">
+                <a href="">Home</a>
+                <a href="">About</a>
+                <a href="">Skills</a>
+                <a href="">Sertifikat</a>
+                <a href="https://wa.me/+6289518453792">Contact Us</a>
+                <i class="fa-solid fa-xmark cancel" onclick="cancel()"></i>
+            </div>
+        </div>
+    </nav>
+    <section>
+     
+
+        <div class="main-container">
+            <div class="image" data-aos="zoom-in-right" data-aos-duration="2500">
+                <img src="Deydo.jpg" alt="">
+            </div>
+            <div class="content">
+                <h1 data-aos="fade-left" data-aos-duration="1000" data-aos-delay="800">Hey I'm <span>Deydo</span></h1>
+                <div class="typewriter" data-aos="fade-right" data-aos-duration="1000" data-aos-delay="900">I'm a <span></span></div>
+                <p data-aos="flip-up" data-aos-duration="1000" data-aos-delay="1000">Saya Pelajar Tunas Media Jurusan RPL Kelas 10</p>
+                <div class="social-links" data-aos="flip-down" data-aos-duration="1000" data-aos-delay="1200">
+                    <a href="https://github.com/Deydo777" target="_blank"><i class="fa-brands fa-github"></i></a> 
+                    <a href="https://www.tiktok.com/@doyygans?_t=ZS-8tbWW4sQCqz&_r=1" target="_blank"><i class="fa-brands fa-tiktok"></i></a>
+                    <a href="https://www.instagram.com/deydo2124/" target="_blank"><i class="fa-brands fa-instagram"></i></a>
+                    <a href="https://wa.me/+6289518453792" target="_blank"><i class="fa-brands fa-whatsapp"></i></a>
+                </div>
+                <div class="btn" data-aos="zoom-out-left" data-aos-duration="1000" data-aos-delay="1300">
+                    <button>Klik Logo bang<i class="fa-solid fa-arrow-up"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <h1 class="sub-title">
+        My <span>Skills</span>
+    </h1>
+    <section class="skills-wrapper">
+        <div class="container" id="technical-skills">
+            <h1 class="heading1">Technical Skills</h1>
+            <div class="Technical-bars">
+                <div class="bar">
+                    <div class="bar-header">
+                        <i class='bx bxl-html5' style="color: #c95d2e;"></i>
+                        <span>HTML</span>
+                        <span class="percent">90%</span>
+                    </div>
+                    <div class="progress-line html"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="bar-header">
+                        <i class='bx bxl-css3'  style="color: #147bbc;"></i>
+                        <span>CSS</span>
+                        <span class="percent">85%</span>
+                    </div>
+                    <div class="progress-line css"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="bar-header">
+                        <i class='bx bxl-javascript'  style="color: #b0bc1e;"></i>
+                        <span>JavaScript</span>
+                        <span class="percent">75%</span>
+                    </div>
+                    <div class="progress-line javascript"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="bar-header">
+                        <i class='bx bxl-python'  style="color: #c32ec9;"></i>
+                        <span>Python</span>
+                        <span class="percent">80%</span>
+                    </div>
+                    <div class="progress-line python"><span></span></div>
+                </div>
+                <div class="bar">
+                    <div class="bar-header">
+                        <i class='bx bxl-react' style="color: #61DBFB;"></i>
+                        <span>React</span>
+                        <span class="percent">70%</span>
+                    </div>
+                    <div class="progress-line react"><span></span></div>
+                </div>
+            </div>
+        </div>
+
+        <!-- Professional Skills -->
+        <div class="container2" id="professional-skills">
+            <h1 class="heading2">Professional Skills</h1>
+            <div class="skills2-container2">
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="percent-text">80%</div>
+                        </div>
+                    </div> 
+                    <span>Kreatifitas</span>
+                </div>
+                <div class="skill2">
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="percent-text">65%</div>
+                        </div>
+                    </div>
+                    <span>Komunikasi</span>
+                </div>
+                <div class="skill2">
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="percent-text">80%</div>
+                        </div>
+                    </div>
+                    <span>Team Work</span>
+                </div>
+                <div class="skill">
+                    <div class="outer">
+                        <div class="inner">
+                            <div class="percent-text">75%</div>
+                        </div>
+                    </div>
+                    <span>Problem Solving</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    
+    <section id="projects" class="zoom"> <!-- Tambahkan kelas 'zoom' di sini -->
+        <h1 class="sub-title1">
+            Projek <span>saya</span>
+        </h1>
+        <div class="project">
+            <img src="webdoy.jpeg" alt="Project 1">
+            <h2>Personal Website</h2>
+            <p>The first project was made as is, not very interesting, just using HTML CSS</p>
+        </div>
+        <div class="project">
+            <img src="Loginv1.jpeg" alt="Project 2">
+            <h2>Login Form</h2>
+            <p>on this website i make an easy and simle login form using HTML,CSS only</p>
+        </div>
+        </div>
+        <div class="project">
+            <img src="weather.jpg" alt="Project 4">
+            <h2>Apk Cuaca</h2>
+            <p>i make a projek weather app using JAVA,HTML,CSS while watching the tutorial on YT</p>
+        </div>
+        <div class="project">
+            <img src="Portfolio 2.jpg" alt="Project 5">
+            <h2>Portfolio web 2</h2>
+            <p>This is my project Use JS,HTML,CSS</p>
+        </div>
+        
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+
+
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({offset:0});
+    </script>
+    <script>
+        function hamburg(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(0px)"
+        }
+        function cancel(){
+            const navbar = document.querySelector(".dropdown")
+            navbar.style.transform = "translateY(-500px)"
+        }
+    </script>
+    
+
+
+</body>
+</html>
